@@ -58,7 +58,7 @@
 				<!-- <version>5.0-beta</version> -->
 				<extensions>true</extensions>
 				<configuration>
-					<sourceFile>edu/isi/bmkeg/triageApp/TriageApp.mxml</sourceFile>
+					<sourceFile>edu/isi/bmkeg/digitalLibraryApp/DigitalLibraryApp.mxml</sourceFile>
 					<swfVersion>11</swfVersion>
 					<compilerWarnings>
 						<warn-no-constructor>false</warn-no-constructor>
@@ -185,7 +185,7 @@
 			<groupId>edu.isi.bmkeg</groupId>
 			<version>0.1.4-SNAPSHOT</version>
 			<type>swc</type>
-			<artifactId>triageClientComponents</artifactId>
+			<artifactId>digitalLibraryClientComponents</artifactId>
 		</dependency>
 
 		<dependency>
