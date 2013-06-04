@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
-			   xmlns:base="edu.isi.bmkeg.digitalLibraryApp.*"
-			   xmlns:module="edu.isi.bmkeg.digitalLibraryModule.*"
+			   xmlns:base="edu.isi.bmkeg.lapdftextApp.*"
+			   xmlns:module="edu.isi.bmkeg.lapdftextModule.*"
 			   xmlns:s="library://ns.adobe.com/flex/spark" 
 			   xmlns:mx="library://ns.adobe.com/flex/mx" 
 			   minWidth="955" 
 			   minHeight="600">
 	
 	<fx:Declarations>
-		<base:DigitalLibraryAppContext contextView="{this}"/>
+		<base:LapdftextAppContext contextView="{this}"/>
 	</fx:Declarations>
 			
-	<module:DigitalLibraryModule label="diglib" id="diglibComponent" height="100%" width="100%"/>
+	<module:LapdftextModule label="lapdftext" id="lapdftextComponent" height="100%" width="100%"/>
 	
 </s:Application>

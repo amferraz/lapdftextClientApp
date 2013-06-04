@@ -1,7 +1,6 @@
-package edu.isi.bmkeg.digitalLibraryApp
+package edu.isi.bmkeg.lapdftextApp
 {	
-	import edu.isi.bmkeg.digitalLibraryModule.DigitalLibraryModule;
-	import edu.isi.bmkeg.digitalLibraryModule.DigitalLibraryModuleContext;
+	import edu.isi.bmkeg.lapdftextModule.*;
 		
 	import flash.display.DisplayObjectContainer;
 	
@@ -9,13 +8,13 @@ package edu.isi.bmkeg.digitalLibraryApp
 	
 	import org.robotlegs.utilities.modular.mvcs.ModuleContext;
 	
-	public class DigitalLibraryAppContext extends ModuleContext
+	public class LapdftextAppContext extends ModuleContext
 	{
 
 		override public function startup():void
 		{
 			// map the modules so that instances will be properly supplied (injected) with an injector.
-			viewMap.mapType(DigitalLibraryModule);		
+			viewMap.mapType(LapdftextModule);		
 		}
 		
 	}
