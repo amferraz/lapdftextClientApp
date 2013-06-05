@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.isi.bmkeg</groupId>
-	<artifactId>digitalLibraryClientApp</artifactId>
-	<version>0.1.4-SNAPSHOT</version>
-	<name>Digital Library Client Application</name>
+	<artifactId>lapdftextClientApp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>LAPDFText Client Application</name>
 	<packaging>swf</packaging>
 	<properties>
 		<flexmojos.version>4.2-beta</flexmojos.version>
@@ -58,7 +58,7 @@
 				<!-- <version>5.0-beta</version> -->
 				<extensions>true</extensions>
 				<configuration>
-					<sourceFile>edu/isi/bmkeg/digitalLibraryApp/DigitalLibraryApp.mxml</sourceFile>
+					<sourceFile>edu/isi/bmkeg/lapdftextApp/LapdftextApp.mxml</sourceFile>
 					<swfVersion>11</swfVersion>
 					<compilerWarnings>
 						<warn-no-constructor>false</warn-no-constructor>
@@ -183,9 +183,9 @@
 
 		<dependency>
 			<groupId>edu.isi.bmkeg</groupId>
-			<version>0.1.4-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 			<type>swc</type>
-			<artifactId>digitalLibraryClientComponents</artifactId>
+			<artifactId>lapdftextClientComponents</artifactId>
 		</dependency>
 
 		<dependency>

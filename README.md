@@ -1,4 +1,4 @@
-digitalLibraryClientApp
+lapdftextClientApp
 =======================
 
-The overall Flex application for a digital library system.
+The overall Flex application for a LAPDFText-enabled text-extraction system.
